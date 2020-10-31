@@ -1,0 +1,350 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	/* align-items: center; */
+	-moz-box-sizing: border-box;
+}
+body{
+	background-color: #B20093;
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #46d0cd;
+    box-shadow: 0px -10px 36px #ffffff;
+}
+header .container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header .container .logo{
+    width: 20%;
+}
+header .container .logo a{}
+header .container .logo img{width: 100%;height: 90px;}
+header .container .nav{
+    width: 80%;
+}
+header .container .nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+header .container .nav ul li{}
+header .container .nav ul li a{
+    text-decoration: none;
+    /* list-style: none; */
+    padding: 54px;
+    font-size: 20px;
+    color: white;
+    font-weight: 30px;
+    font-weight: 400;
+}
+header .container .nav ul li a:hover{
+    color: yellow;
+}
+
+section{
+    padding: 100px;
+}
+section .container{
+    width: 1200px;
+    margin: auto;
+}
+section .container .signup {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+background: #B20093;
+box-shadow:  -10px -10px 28px #5e004e, 
+             10px 10px 28px #ff00d8;
+             transition-duration: 0.3s;
+
+               
+}
+
+section .container .signup:hover{
+
+	box-shadow:  -10px -10px 28px #ff00d8, 
+             10px 10px 28px #5e004e;
+
+
+}
+
+
+section .container .signup input {
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 7px;
+    margin-bottom: 20px;
+    outline: none;
+}
+section .container .signup input:focus {
+    border: 3px solid #68cbd8;
+}
+section .container .signup form{
+    padding: 55px;
+}
+section .container .signup  p{
+    text-align: left;
+    color: #85f3ee;
+    font-size: 29px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+section .container .signup label{
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+section .container .signup .gender{
+    display: flex;
+    flex: 0 0 auto;
+    /* align-items: center; */
+}
+section .container .signup .checkbox{
+	 display: flex;
+	 flex: 0 0 auto;
+}
+section .container .signup textarea{
+    width: 100%;
+    border-radius: 5px;
+    
+    outline: none;
+}
+section .container .signup textarea:focus{
+    border: 3px solid #3cc1ef;
+}
+section .container .signup a{
+	
+background: black;
+	
+text-decoration: none;
+	
+color: white;
+	
+padding: 10px;
+	
+display: table;
+	
+font-size: 20px;
+	
+/* text-align: left; */
+}
+section .container .signup button{display: block;padding: 5px;margin-top: 9px;}
+
+footer{
+    background-color: #774c75;
+}
+footer .container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30PX;
+    align-items: center;
+}
+footer .container .box1{
+    width: 60%;
+}
+footer .container .box1 p{
+    text-align: center;
+    color: white;
+}
+footer .container .box2{
+    width: 40%;
+}
+footer .container .box2 p{
+	text-align: center;
+    color: white;
+   
+}
+
+footer .container .box2 i{
+    padding: 10px;
+    font-size: 26px;
+}
+
+
+form .gender input[type="radio"]{
+	width: auto;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-left: 9px;
+}
+
+form .checkbox input[type="checkbox"]{
+	width: auto;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-left: 9px;
+}
+
+/** portfolio start******/
+
+
+.index {
+    /* background-color: azure; */
+    padding: 20px 0px;
+}
+.index .container2{
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    border: 10px solid white;
+    border-radius: 30px;
+    marging-bottom: 20px;
+    margin-bottom: 30px;
+}
+.index .container2 p{
+    color: white;
+    font-size: 41px;
+    line-height: 63px;
+}
+.index .container2 span{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.index .container3 {
+    width: 1100px;
+    display: flex;
+    margin: auto;
+}
+.index .container3 .box1{
+    width: 33.33%;
+    margin: 5px;
+}
+.index .container3 .box1:hover{}
+.index .container3 .box1 a{}
+.index .container3 .box1 img{
+    width: 100%;
+    height: 319.27px;
+    border-radius: 26px;
+    box-shadow: 5px 5px 5x violet;
+}
+
+
+
+.index .container3 .box1 img:hover{
+    box-shadow: 5px 5px 5px #131113;
+}
+.index .container3 .box1 p{
+    color: white;
+}
+
+.index .container3 .box2{
+    width: 33.33%;
+    margin: 5px;
+}
+.index .container3 .box2:hover{}
+.index .container3 .box2 a{}
+.index .container3 .box2 img{
+    width: 100%;
+    height: 3;
+    height: 319.27px;
+    border-radius: 25px;
+}
+
+.index .container3 .box2 img:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.index .container3 .box2 p{
+    color: white;
+}
+
+.index .container3 .box3{
+    width: 33.33%;
+    margin: 5px;
+}
+.index .container3 .box3:hover{}
+.index .container3 .box3 a{}
+.index .container3 .box3 img{
+    width: 100%;
+    height: 319.28px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.index .container3 .box3 img:hover{
+    box-shadow: 5px 5px 5px black;
+} 
+.index .container3 .box3 p{
+    color: white;
+}
+
+.index .container4 {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.index .container4 .box1{
+    width: 33.33%;
+    padding: 5px;
+}
+.index .container4 .box1:hover{}
+.index .container4 .box1 a{}
+.index .container4 .box1 img{
+    width: 100%;
+    height: 319.27px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.index .container4 .box1 img:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.index .container4 .box1 p{
+    color: white;
+}
+
+.index .container4 .box2{
+    width: 33.33%;
+    /* height: 319.27px; */
+    padding: 5px;
+}
+.index .container4 .box2:hover{}
+.index .container4 .box2 a{}
+.index .container4 .box2 img{
+    border-radius: 25px;
+    width: 100%;
+    height: 319.27px;
+}
+
+.index .container4 .box2 img:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.index .container4 .box2 p{
+    color: white;
+}
+
+.index .container4 .box3{
+    width: 33.33%;
+    padding: 5px;
+}
+.index .container4 .box3:hover{}
+.index .container4 .box3 a{}
+.index .container4 .box3 img{
+    width: 100%;
+    height: 319.27px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.index .container4 .box3 img:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.index .container4 .box3 p{
+    color: white;
+}
